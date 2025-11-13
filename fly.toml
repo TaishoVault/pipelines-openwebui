@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for pipelines-openwebui on 2025-11-13T18:56:33Z
+# fly.toml app configuration file generated for pipelines-openwebui on 2025-11-13T19:54:25Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'pipelines-openwebui'
-primary_region = 'iad'
+primary_region = 'fra'
 
 [build]
 
@@ -20,4 +20,4 @@ primary_region = 'iad'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 1024
+  memory_mb = 512
