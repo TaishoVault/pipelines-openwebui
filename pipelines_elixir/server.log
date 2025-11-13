@@ -1,0 +1,17 @@
+    warning: function parse_ip/1 is unused
+    │
+ 42 │   defp parse_ip(host) when is_binary(host) do
+    │        ~
+    │
+    └─ lib/pipelines_elixir/application.ex:42:8: PipelinesElixir.Application (module)
+
+
+10:09:36.676 [info] Starting Pipelines Elixir server on 0.0.0.0:12000
+
+10:09:36.676 [info] Pipelines directory: ./pipelines
+
+10:09:36.678 [info] Initializing Pipeline Loader with directory: ./pipelines
+
+10:09:36.678 [debug] Scanning pipelines in: ./pipelines
+
+10:09:36.685 [info] Raw Cowboy server started on localhost:12000
